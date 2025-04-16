@@ -48,6 +48,51 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2(vite@6.2.5)
 
+  07-fullscreen-and-resizing:
+    dependencies:
+      three:
+        specifier: ^0.174.0
+        version: 0.174.0
+    devDependencies:
+      vite:
+        specifier: ^6.2.2
+        version: 6.2.5
+      vite-plugin-restart:
+        specifier: ^0.4.2
+        version: 0.4.2(vite@6.2.5)
+
+  08-geometries:
+    dependencies:
+      three:
+        specifier: ^0.174.0
+        version: 0.174.0
+    devDependencies:
+      vite:
+        specifier: ^6.2.2
+        version: 6.2.5
+      vite-plugin-restart:
+        specifier: ^0.4.2
+        version: 0.4.2(vite@6.2.5)
+
+  09-debug-ui:
+    dependencies:
+      gsap:
+        specifier: ^3.12.7
+        version: 3.12.7
+      lil-gui:
+        specifier: ^0.20.0
+        version: 0.20.0
+      three:
+        specifier: ^0.174.0
+        version: 0.174.0
+    devDependencies:
+      vite:
+        specifier: ^6.2.2
+        version: 6.2.5
+      vite-plugin-restart:
+        specifier: ^0.4.2
+        version: 0.4.2(vite@6.2.5)
+
 packages:
 
   '@esbuild/aix-ppc64@0.25.2':
@@ -332,12 +377,18 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  gsap@3.12.7:
+    resolution: {integrity: sha512-V4GsyVamhmKefvcAKaoy0h6si0xX7ogwBoBSs2CTJwt7luW0oZzC0LhdkyuKV8PJAXr7Yaj8pMjCKD4GJ+eEMg==}
+
   gsap@3.5.1:
     resolution: {integrity: sha512-EMV0RSUKZNeTUzLKAizGlwxVOUyif3/g8I3S1aA/hf3gbqwBvmQ02x1RdTBQNQMOpHCVBv9y/vaHwfctoAg8zw==}
 
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
+
+  lil-gui@0.20.0:
+    resolution: {integrity: sha512-k7Ipr0ztqslMA2XvM5z5ZaWhxQtnEOwJBfI/hmSuRh6q4iMG9L0boqqrnZSzBR1jzyJ28OMl47l65ILzRe1TdA==}
 
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
@@ -598,9 +649,13 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
+  gsap@3.12.7: {}
+
   gsap@3.5.1: {}
 
   is-number@7.0.0: {}
+
+  lil-gui@0.20.0: {}
 
   micromatch@4.0.8:
     dependencies:
