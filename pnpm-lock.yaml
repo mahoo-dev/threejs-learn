@@ -237,6 +237,25 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2(vite@6.2.5)
 
+  19-physics:
+    dependencies:
+      cannon:
+        specifier: ^0.6.2
+        version: 0.6.2
+      lil-gui:
+        specifier: ^0.20.0
+        version: 0.20.0
+      three:
+        specifier: ^0.174.0
+        version: 0.174.0
+    devDependencies:
+      vite:
+        specifier: ^6.2.2
+        version: 6.2.5
+      vite-plugin-restart:
+        specifier: ^0.4.2
+        version: 0.4.2(vite@6.2.5)
+
 packages:
 
   '@esbuild/aix-ppc64@0.25.2':
@@ -507,6 +526,9 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
+  cannon@0.6.2:
+    resolution: {integrity: sha512-n/7wWSXr8KOSvjad2x0fJHgpMepKjOKi+NdSnjfYyijoDBZnp4JQKgPcpv28jlXoWM+N9zVYU09J0A6Qxx+Y7w==}
+
   esbuild@0.25.2:
     resolution: {integrity: sha512-16854zccKPnC+toMywC+uKNeYSv+/eXkevRAfwRD/G9Cleq66m8XFIrigkbvauLLlCfDL45Q2cWegSg53gGBnQ==}
     engines: {node: '>=18'}
@@ -757,6 +779,8 @@ snapshots:
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
+
+  cannon@0.6.2: {}
 
   esbuild@0.25.2:
     optionalDependencies:
