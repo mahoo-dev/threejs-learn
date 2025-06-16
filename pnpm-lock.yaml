@@ -256,6 +256,22 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2(vite@6.2.5)
 
+  20-imported-models:
+    dependencies:
+      lil-gui:
+        specifier: ^0.20.0
+        version: 0.20.0
+      three:
+        specifier: ^0.174.0
+        version: 0.174.0
+    devDependencies:
+      vite:
+        specifier: ^6.2.2
+        version: 6.2.5
+      vite-plugin-restart:
+        specifier: ^0.4.2
+        version: 0.4.2(vite@6.2.5)
+
 packages:
 
   '@esbuild/aix-ppc64@0.25.2':
